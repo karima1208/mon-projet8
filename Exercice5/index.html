@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">  <!-- Ajout de l'attribut lang="fr"pour indiquer la langue principale de la page. -->
+<head>
+    <meta charset="UTF-8"> <!--pour spécifier l'encodage.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--pour rendre la page responsive.-->
+    <title>Page sans Accessibilité</title>
+</head>
+<body>
+<h1>Titre de la Page</h1>
+<p>Ceci est un paragraphe de texte.</p>
+
+<!-- Formulaire sans étiquette pour les champs -->
+<form>
+    <label for="name">Nom :</label>
+    <input id="name" type="text" placeholder="Entrez votre nom" aria-required="true"> <!-- aria-required="true" pour indiquer que les champs sont obligatoires.-->
+    
+    <label for="email">Adresse e-mail :</label>
+    <input id="email" type="email" placeholder="Entrez votre adresse e-mail" aria-required="true"> <!-- aria-required="true" pour indiquer que les champs sont obligatoires.-->
+    >
+    <button type="submit">Envoyer</button>
+</form>
+
+<!-- Image sans attribut alt -->
+<img src="assets/image.png" alt="photo du viewport" height=250> <!--Ajout de alt-->
+
+<!-- Lien sans texte descriptif -->
+<a href="https://example.com">Visitez notre site pour plus d'informations</a> <!--lien, et texte du bouton-->
+</body>
+</html>
