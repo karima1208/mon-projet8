@@ -9,7 +9,6 @@ function convertToBinary() {
     decimalInput.trim() === "" ||
     !Number.isInteger(Number(decimalInput))
   ) {
-    binaryResult.textContent = "Veuillez entrer un nombre entier valide.";
     return;
   }
 

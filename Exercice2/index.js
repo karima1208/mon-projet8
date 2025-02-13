@@ -1,7 +1,11 @@
 function calculate(num1, num2, operator) {
-  // Vérifie que les paramètres sont valides
-  if (typeof num1 !== "number" || typeof num2 !== "number") {
-    return "Invalid input: both arguments must be numbers";
+  // Convertir en nombres pour éviter les erreurs
+  num1 = Number(num1);
+  num2 = Number(num2);
+
+  // Vérifie que les valeurs sont bien des nombres après conversion
+  if (isNaN(num1) || isNaN(num2)) {
+    return "Invalid input: both arguments must be valid numbers";
   }
 
   // Effectue l'opération en fonction de l'opérateur

@@ -1,7 +1,7 @@
 {
   "name": "p8-da-jsreact",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pour commencer le projet lancez la commande `npm install` qui installera les dépendences du projet.",
   "main": "index.js",
   "scripts": {
     "start": "http-server -p 8080 -d",
@@ -13,6 +13,7 @@
     "http-server": "^14.1.1"
   },
   "devDependencies": {
-    "cypress": "^13.8.1"
-  }
+    "cypress": "^13.17.0"
+  },
+  "keywords": []
 }
